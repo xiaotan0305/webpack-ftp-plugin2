@@ -1,6 +1,6 @@
 {
   "name": "webpack-ftp-plugin2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "webpack  ft  deploy plugin",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CharlieLau/webpack-ftp-plugin2.git"
+    "url": "git+https://github.com/xiaotan0305/webpack-ftp-plugin2.git"
   },
   "author": "charlie_lau",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CharlieLau/webpack-ftp-plugin2/issues"
+    "url": "https://github.com/xiaotan0305/webpack-ftp-plugin2/issues"
   },
-  "homepage": "https://github.com/CharlieLau/webpack-ftp-plugin2#readme",
+  "homepage": "https://github.com/xiaotan0305/webpack-ftp-plugin2#readme",
   "dependencies": {
     "async": "^2.6.1",
     "colors": "^1.3.2",
