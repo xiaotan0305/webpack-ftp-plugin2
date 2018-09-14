@@ -19,9 +19,9 @@ module.exports = function(options) {
         ftp: {
             authKey: {
                 username: 'xxx',
-                password: 'xx'
+                password: 'xxx'
             },
-            host: 'xx.x.x.x',
+            host: '127.0.0.1',
             port: '21'
         },
         remoteRoot: '',
@@ -29,7 +29,6 @@ module.exports = function(options) {
         deployPath: '',
         cb: null
     };
-
 
     if (options) {
         conf = _.assign(_default, options);
