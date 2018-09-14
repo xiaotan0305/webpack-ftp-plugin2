@@ -36,15 +36,15 @@ var webpackConfig = {
   plugins: [new WebpackFtpPlugin({
       ftp: {
         "authKey": {
-            "username": "xx",
-            "password": "xxx"
+            "username": "xx", // 用户名
+            "password": "xxx" // 密码
         },
-        "host": "x.x.x.x",
-        "port": "21"
+        "host": "x.x.x.x", // ip
+        "port": "21" // 端口
     }
-    remoteRoot: '/',
-    localRoot: __dirname,
-    deployPath: './build'
+    remoteRoot: '/', // 远程ftp路径
+    localRoot: __dirname, // 本地路径根目录
+    deployPath: './build' // 基于本地路径根目录的相对路径
 })]
 }
 ```
