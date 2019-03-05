@@ -26,7 +26,7 @@ Basic Usage
 1. add the plugin to your webpack config as follows:
 
 ```javascript
-var WebpackFtpPlugin = require('webpack-ftp-plugin')
+var WebpackFtpPlugin = require('webpack-ftp-plugin2')
 var webpackConfig = {
   entry: 'index.js',
   output: {
@@ -41,7 +41,7 @@ var webpackConfig = {
         },
         "host": "x.x.x.x", // ip
         "port": "21" // 端口
-    }
+    },
     remoteRoot: '/', // 远程ftp路径
     localRoot: __dirname, // 本地路径根目录
     deployPath: './build' // 基于本地路径根目录的相对路径

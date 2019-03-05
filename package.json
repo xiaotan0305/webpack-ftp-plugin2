@@ -1,6 +1,6 @@
 {
   "name": "webpack-ftp-plugin2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "webpack  ft  deploy plugin",
   "main": "index.js",
   "scripts": {
